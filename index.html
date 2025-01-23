@@ -19,7 +19,7 @@
     <link rel="manifest" href="manifest.json">
     <link rel="mask-icon" href="icons/safari-pinned-tab.svg?v=2" color="#2167ff">
     <link rel="shortcut icon" href="icons/favicon.ico?v=2">
-    <link rel="help" href="http://localhost:8000/help">
+    <link rel="help" href="http://localhost:8000/help.html">
     <link rel="search" href="https://R74n.com/search/#gsc.tab=0">
     <link rel="license" href="http://localhost:8000/license.txt">
     <meta name="msapplication-TileColor" content="#e6d577">
@@ -78,9 +78,9 @@
           "softwareVersion":"1.10.2",
           "datePublished":"2021-12-15",
           "dateCreated":"2021-12-15",
-          "gameTip":"http://localhost:8000/controls",
-          "softwareHelp":"http://localhost:8000/controls",
-          "releaseNotes":"http://localhost:8000/changelog",
+          "gameTip":"http://localhost:8000/controls.html",
+          "softwareHelp":"http://localhost:8000/controls.html",
+          "releaseNotes":"http://localhost:8000/changelog.html",
           "screenshot": "http://localhost:8000/icons/wallpaper.png",
           "softwareRequirements": "HTML5",
           "archivedAt": "https://web.archive.org/web/20230519005427/http://localhost:8000/",
@@ -114,7 +114,7 @@
 
     <script>
         console.log("%c WELCOME TO R74n ","position: absolute; top: 50%; right: 50%; transform: translate(50%,-50%); font-family: Arial; font-size: 3em; font-weight: 700; color: #00ffff; text-shadow: 1px 1px 1px #14c9c9, 1px 2px 1px #14c9c9, 1px 3px 1px #14c9c9, 1px 4px 1px #14c9c9, 1px 5px 1px #14c9c9, 1px 13px 6px rgba(16,16,16,0.4), 1px 22px 10px rgba(16,16,16,0.2), 1px 25px 35px rgba(16,16,16,0.2), 1px 30px 60px rgba(16,16,16,0.4);padding:10px");
-        console.log("Sandboxels is developed by R74n and can be played on the official website: http://localhost:8000/");
+        console.log("Sandboxels is developed by R74n and can be played on the official website: https://sandboxels.r74n.com");
         console.log("Can't access? Join our Discord: https://link.R74n.com/discord");
         console.log("Found this on another website? Let us know!");
         console.log("©2021-" + new Date().getFullYear() + ". All Rights Reserved. http://localhost:8000/license.txt");
@@ -17738,7 +17738,7 @@ window.onload = function() {
                 <div id="categoryControls"></div>
                 <div id="elementControls"></div>
             </div>
-            <div id="extraInfo"><small><a href="http://localhost:8000/changelog" id="changelogButton" target="_blank">Changelog</a> • <a href="http://localhost:8000/feedback" target="_blank" style="color:lime;">Feedback</a> • <a href="https://sandboxels.wiki.gg/" target="_blank" id="wikiButton" title="Official Sandboxels Wiki - wiki.gg" style="color:white;">Wiki</a> • <a id="moreSocial" href="https://twitter.com/R74nCom" rel="me" target="_blank">Twitter</a> • <a href="https://discord.gg/ejUc6YPQuS" target="_blank" style="color:#2f60ff;">Discord</a><span id="install-button" style="display:none">&nbsp;• <a onclick="deferredPrompt.prompt(); return false" href="#" style="text-shadow: 0px 2px 10px #ff00ff; cursor:pointer">Install Offline</a></span><!--<br><br><a style="color:lime" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeYMbngtbBHZ7hkz8jpbHl7TiAItqukrhtntKgAHjH30fY08A/viewform?usp=sf_link">FILL OUT THE CENSUS<span style="color:red">(NEW)</span></a>--></small></div>
+            <div id="extraInfo"><small><a href="http://localhost:8000/changelog.html" id="changelogButton" target="_blank">Changelog</a> • <a href="http://localhost:8000/feedback.html" target="_blank" style="color:lime;">Feedback</a> • <a href="https://sandboxels.wiki.gg/" target="_blank" id="wikiButton" title="Official Sandboxels Wiki - wiki.gg" style="color:white;">Wiki</a> • <a id="moreSocial" href="https://twitter.com/R74nCom" rel="me" target="_blank">Twitter</a> • <a href="https://discord.gg/ejUc6YPQuS" target="_blank" style="color:#2f60ff;">Discord</a><span id="install-button" style="display:none">&nbsp;• <a onclick="deferredPrompt.prompt(); return false" href="#" style="text-shadow: 0px 2px 10px #ff00ff; cursor:pointer">Install Offline</a></span><!--<br><br><a style="color:lime" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeYMbngtbBHZ7hkz8jpbHl7TiAItqukrhtntKgAHjH30fY08A/viewform?usp=sf_link">FILL OUT THE CENSUS<span style="color:red">(NEW)</span></a>--></small></div>
             <script>
                 // version check
                 if (!settings["lastversion"] || settings["lastversion"]!==currentversion) {
@@ -17977,7 +17977,7 @@ Cancer, Landmine, Grenade, Smoke Grenade">?</span>
             };
             affRequest.send();
         </script> -->
-        <p>🌐 Language <a href="http://localhost:8000/translate" target="_blank">[BETA]</a>: <select onchange="if (this.value === 'en'){setSetting('lang',null)}else{setSetting('lang',this.value)}location.reload()" id="langSelect">
+        <p>🌐 Language <a href="http://localhost:8000/translate.html" target="_blank">[BETA]</a>: <select onchange="if (this.value === 'en'){setSetting('lang',null)}else{setSetting('lang',this.value)}location.reload()" id="langSelect">
             <option selected value="en">English (American)</option>
             <option value="en_gb">English (British)</option>
             <option value="cs">Čeština</option>
@@ -18033,11 +18033,11 @@ Cancer, Landmine, Grenade, Smoke Grenade">?</span>
         <p>Falling-sand games are a genre of sandbox games characterized by falling particles of various types.</p>
         <p>Simply click or use your touchscreen to select a category, like <strong>Liquids</strong>, then pick an element, like <strong>Water</strong>. Drag on the canvas above to place your pixels, and watch them interact with others!</p>
         <img src="icons/wallpaper.webp" style="width:100%" alt="Rainforest landscape made in Sandboxels" title="Rainforest landscape made in Sandboxels">
-        <p>Sandboxels has many <a href="http://localhost:8000/education-use">applications in education</a>. With a hands-on experience, it can give students an understanding of emerging phenomena in many fields, such as biology, chemistry, ecology, geology, cooking, and even virology. There are countless aspects to discover.</p>
+        <p>Sandboxels has many <a href="http://localhost:8000/education-use.html">applications in education</a>. With a hands-on experience, it can give students an understanding of emerging phenomena in many fields, such as biology, chemistry, ecology, geology, cooking, and even virology. There are countless aspects to discover.</p>
         <p>We have a thriving community on <a href="https://discord.gg/ejUc6YPQuS" target="_blank">Discord</a>! There you can post feedback or share your creations.</p>
         <!-- <p>If you'd like to support us, consider donating on <a href="https://www.paypal.com/donate/?hosted_button_id=GCX4VHQ7SZWTN" target="_blank">PayPal</a> or <a href="https://cash.app/$emojiartist" target="_blank" title="$emojiartist">CashApp</a>, or subscribing on Discord.</p> -->
         <p>Business inquiries? Education stories? Help needed? Email us at <a href="mailto:contact@R74n.com?subject=%5BSandboxels%5D">contact@R74n.com</a>!</p>
-        <p>More links: <a href="http://localhost:8000/help" rel="help">Help</a> • <a href="http://localhost:8000/tips">Tips</a> • <a href="http://localhost:8000/mod-list">Mods</a> • <a href="http://localhost:8000/mobile-use">Mobile</a> • <a href="http://localhost:8000/offline-use">Offline</a> • <a href="https://R74n.com/privacy">Privacy</a></p>
+        <p>More links: <a href="http://localhost:8000/help.html" rel="help">Help</a> • <a href="http://localhost:8000/tips.html">Tips</a> • <a href="http://localhost:8000/mod-list.html">Mods</a> • <a href="http://localhost:8000/mobile-use.html">Mobile</a> • <a href="http://localhost:8000/offline-use.html">Offline</a> • <a href="https://R74n.com/privacy.html">Privacy</a></p>
         <p>Thanks to our Patrons: Serioustar, ggod, Midi_png, personman, fnl4y, PitsPower, swagg boi, moss, Suss, epsiloneridani, WeiChei, Trent, u2ce</p>
         <p style="display:none" id="langCredit">Translation by R74n</p>
         <p>Sandboxels is developed by R74n. Check out <a href="https://R74n.com" rel="author" target="_blank">our other projects</a>!</p>
@@ -18080,7 +18080,7 @@ Cancer, Landmine, Grenade, Smoke Grenade">?</span>
             <tr><td>Change view</td>   <td><kbd>1</kbd><kbd>2</kbd><kbd>3</kbd><kbd>4</kbd></td></tr>
             <tr><td>Toggle GUI</td>   <td><kbd>F1</kbd></td></tr>
             <tr><td>Capture screenshot</td>   <td><kbd>C</kbd> or <kbd>F2</kbd></td></tr>
-            <tr><td colspan="2" style="text-align:center"><strong><a href="http://localhost:8000/controls" target="_blank" title="Open the controls file">More controls</a></strong></td></tr>
+            <tr><td colspan="2" style="text-align:center"><strong><a href="http://localhost:8000/controls.html" target="_blank" title="Open the controls file">More controls</a></strong></td></tr>
         </table>
     </div>
 </div>
