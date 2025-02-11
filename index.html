@@ -12742,7 +12742,7 @@ else if (settings.lang && settings.lang !== "en") {
 if (langCode) {
     try {
         var Httpreq = new XMLHttpRequest();
-        Httpreq.open("GET", "lang/" + langCode + ".json", false);
+        Httpreq.open("GET", "https://raw.githubusercontent.com/Olek799/sandboxels-offline/main/lang/" + langCode + ".json", false);
         Httpreq.send(null);
         lang = JSON.parse(Httpreq.responseText);
         if (lang["#lang.font"]) {
