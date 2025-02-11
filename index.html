@@ -21,7 +21,7 @@
     <link rel="shortcut icon" href="icons/favicon.ico?v=2">
     <link rel="help" href="http://localhost:8000/help.html">
     <link rel="search" href="https://R74n.com/search/#gsc.tab=0">
-    <link rel="license" href="http://localhost:8000/license.txt">
+    <link rel="license" href="https://raw.githubusercontent.com/Olek799/sandboxels-offline/main/license.txt">
     <meta name="msapplication-TileColor" content="#e6d577">
     <meta name="theme-color" content="#000000">
 
@@ -32,7 +32,7 @@
     <meta property="og:description" content="Relax or experiment with over 500 materials in this falling sand simulator.">
     <meta property="og:url" content="http://localhost:8000">
     <meta property="og:site_name" content="Sandboxels">
-    <meta property="og:image" content="http://localhost:8000/icons/wallpaper.png">
+    <meta property="og:image" content="https://raw.githubusercontent.com/Olek799/sandboxels-offline/main/icons/wallpaper.png">
     <meta property="og:image:width" content="1980">
     <meta property="og:image:height" content="971">
     <meta property="og:image:type" content="image/png">
@@ -43,7 +43,7 @@
     <meta name="twitter:description" content="Relax or experiment with over 500 materials in this falling sand simulator.">
     <meta name="twitter:title" content="Sandboxels - Experiment with Pixels">
     <meta name="twitter:site:id" content="1436857621827530753">
-    <meta name="twitter:image" content="http://localhost:8000/icons/card.png">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/Olek799/sandboxels-offline/main/icons/card.png">
     <meta name="twitter:image:alt" content="A rainforest made in Sandboxels">
     <meta name="twitter:creator:id" content="1436857621827530753">
 
@@ -62,7 +62,7 @@
           "@context": "https://schema.org",
           "@type": ["VideoGame","MobileApplication","WebApplication"],
           "gamePlatform":"Web Browser",
-          "image":"http://localhost:8000/icons/icon.png",
+          "image":"https://raw.githubusercontent.com/Olek799/sandboxels-offline/main/icons/icon.png",
           "url": "http://localhost:8000",
           "name":"Sandboxels",
           "author":"R74n",
@@ -81,12 +81,12 @@
           "gameTip":"http://localhost:8000/controls.html",
           "softwareHelp":"http://localhost:8000/controls.html",
           "releaseNotes":"http://localhost:8000/changelog.html",
-          "screenshot": "http://localhost:8000/icons/wallpaper.png",
+          "screenshot": "https://raw.githubusercontent.com/Olek799/sandboxels-offline/main/icons/wallpaper.png",
           "softwareRequirements": "HTML5",
           "archivedAt": "https://web.archive.org/web/20230519005427/http://localhost:8000/",
           "copyrightYear": 2024,
           "copyrightNotice": "©2021-2024. All Rights Reserved. R74n",
-          "license": "http://localhost:8000/license.txt",
+          "license": "https://raw.githubusercontent.com/Olek799/sandboxels-offline/main/license.txt",
           "discussionUrl": "https://link.r74n.com/discord",
           "educationalUse": "Hands-on lab experiments and learning",
           "headline": "Sandboxels",
@@ -117,7 +117,7 @@
         console.log("Sandboxels is developed by R74n and can be played on the official website: https://sandboxels.r74n.com");
         console.log("Can't access? Join our Discord: https://link.R74n.com/discord");
         console.log("Found this on another website? Let us know!");
-        console.log("©2021-" + new Date().getFullYear() + ". All Rights Reserved. http://localhost:8000/license.txt");
+        console.log("©2021-" + new Date().getFullYear() + ". All Rights Reserved. https://raw.githubusercontent.com/Olek799/sandboxels-offline/main/license.txt");
         // If settings is in localStorage, load it. If not, create an empty object.
         settings = localStorage.getItem("settings") ? JSON.parse(localStorage.getItem("settings")) : {};
         // URL query handling
@@ -17651,7 +17651,7 @@ window.onload = function() {
     }
     // Set the first button in categoryControls div to be the current category
     document.getElementById("categoryControls").children[0].click()
-    document.getElementById("extraInfo").insertAdjacentHTML("beforeend", "<small><p>v" + currentversion + " • " + elementCount + " elements, with <span id='hiddenCount'>" + hiddenCount + "</span> hidden.</p><p>©2021-" + new Date().getFullYear() + ". <a href='http://localhost:8000/license.txt' rel='license' target='_blank'>All Rights Reserved</a>. <a style='color:#00ffff' rel='author' href='https://r74n.com'>R74n</a></p></small>");
+    document.getElementById("extraInfo").insertAdjacentHTML("beforeend", "<small><p>v" + currentversion + " • " + elementCount + " elements, with <span id='hiddenCount'>" + hiddenCount + "</span> hidden.</p><p>©2021-" + new Date().getFullYear() + ". <a href='https://raw.githubusercontent.com/Olek799/sandboxels-offline/main/license.txt' rel='license' target='_blank'>All Rights Reserved</a>. <a style='color:#00ffff' rel='author' href='https://r74n.com'>R74n</a></p></small>");
     selectElement(currentElement);
     focusGame();
     // For every button element, onkeyup="event.preventDefault()"
@@ -17964,7 +17964,7 @@ Cancer, Landmine, Grenade, Smoke Grenade">?</span>
         <script>
             var aff = {};
             var affRequest = new XMLHttpRequest();
-            affRequest.open("GET", "http://localhost:8000/aff.json", true);
+            affRequest.open("GET", "https://raw.githubusercontent.com/Olek799/sandboxels-offline/main/aff.json", true);
             affRequest.onload = function() {
                 if (affRequest.status >= 200 && affRequest.status < 400) {
                     aff = JSON.parse(affRequest.responseText);
