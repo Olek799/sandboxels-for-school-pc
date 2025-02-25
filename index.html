@@ -13058,7 +13058,7 @@ else if (settings.lang && settings.lang !== "en") {
 if (langCode) {
     try {
         var Httpreq = new XMLHttpRequest();
-        Httpreq.open("GET","https://sandboxels.r74n.com/lang/"+langCode+".json",false);
+        Httpreq.open("GET","https://github.com/R74nCom/sandboxels/blob/main/lang/"+langCode+".json",false);
         Httpreq.send(null);
         try {
             lang = JSON.parse(Httpreq.responseText.replace(/\\"/g,""));
